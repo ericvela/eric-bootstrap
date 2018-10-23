@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/node,macos,windows
+# Created by https://www.gitignore.io/api/node,macos,windows,visualstudiocode
 
 ### macOS ###
 # General
@@ -104,6 +104,13 @@ typings/
 # Serverless directories
 .serverless
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -130,4 +137,4 @@ $RECYCLE.BIN/
 *.lnk
 
 
-# End of https://www.gitignore.io/api/node,macos,windows
+# End of https://www.gitignore.io/api/node,macos,windows,visualstudiocode
